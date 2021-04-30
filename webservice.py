@@ -1,7 +1,8 @@
 import streamlit as st
 
 
-st.title('King County House Prices')
+st.title('King County House Prices - mudei o título')
+st.title('Subtítulo')
 
 faixa_de_preco = st.slider("Faixa de preço",1,10, (1,10))
 st.write(faixa_de_preco)
